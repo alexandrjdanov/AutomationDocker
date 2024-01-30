@@ -8,6 +8,7 @@ RUN npm install
 
 CMD [ "npm", "run", "test" ]
 
+#Instruction:
 #how to run with specified browser from run command - 
 # 1. ENTRYPOINT ["npx", "playwright", "test"] 
 # 2. docker build . -t playwright
